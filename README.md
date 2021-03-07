@@ -1,6 +1,13 @@
 # Camagru <img src="https://img.shields.io/static/v1?label=&message=php&logo=php&color=gray"/> <img src="https://img.shields.io/static/v1?label=&message=html&logo=html5&color=gray"/> <img src="https://img.shields.io/static/v1?label=&message=css&logo=css3&color=gray"/> <img src="https://img.shields.io/static/v1?label=&message=javascript&logo=javascript&color=gray"/>
 
-Creating a small instagram using PHP and MySQL
+Welcome to Camagru, a small Instagram-like website allowing users to create and share photo-montages. Create a profile, take new photo-montages, share it on the public gallery.
+
+### Build with
+* [PHP](http://www.php.net/) - Backend
+* [Javascript](https://www.javascript.com/) - Frontend
+* [MySQL](https://www.mysql.com/fr/) - Database
+* HTML/CSS - Frontend
+* Ajax - XMLHttpRequest
 
 ## Intro
 
