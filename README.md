@@ -19,6 +19,7 @@ Objective of this project is to create a complete website like instagram,sharing
 -   HTML/CSS/JS
 -   BOOTSTRAP
 -   MySQL
+-   Ajax
 -   DOCKER
 
 ### Features
