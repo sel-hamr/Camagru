@@ -1,0 +1,150 @@
+body {
+  background-image: url("../img/bg01.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.left {
+  margin-top: 80px;
+  height: 540px;
+  background-image: url("../img/bg1.png");
+}
+
+.right {
+  background-image: url("../img/bg.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 540px;
+  margin-top: 80px;
+}
+
+#image_password1,
+#image_password2 {
+  height: 38px;
+  width: 40px;
+  padding: 5px;
+}
+
+input[type="password"] {
+  width: 100%;
+}
+
+.input-group {
+  padding: 0px;
+}
+
+.profile-img {
+  width: 220px;
+  height: 200px;
+  position: relative;
+  margin-top: 80px;
+}
+
+.profile-img img {
+  width: 220px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.btnChangeImage {
+  margin-top: 20px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+#updateImageProfile {
+  width: 220px;
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.titre_profil {
+  color: white;
+  margin-top: 15px;
+}
+
+#change_pass_tab,
+#edit_tab {
+  color: white;
+}
+#about_tab {
+  color: #00adb5;
+}
+
+#about_li,
+#edit_li,
+#change_pass_li {
+  cursor: pointer;
+}
+
+#myTab {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#my_edit_li,
+#my_change_pass_li {
+  display: none;
+}
+
+.info_person {
+  font-size: 17px;
+  color: white;
+}
+
+.info_user {
+  color: #6ddbe0;
+}
+
+.container {
+  position: relative;
+}
+
+.error {
+  width: 40%;
+  position: absolute;
+  top: 440px;
+  left: 10px;
+}
+
+#errorPassword,
+#errorPasswordNotMatch,
+#errorOldPasswordWrong,
+#errorImage,
+#errorSize,
+#errorEmptyInfo,
+#errorPasswordFormat,
+#errorFormatName,
+#errorCheckUserName,
+#errorEmail,
+#errorCheckFormatImage {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .left {
+    background: none;
+    height: 270px;
+  }
+
+  .right {
+    background: none;
+    margin-top: 10px;
+  }
+
+  .profile-img {
+    margin-top: 15px;
+  }
+  .error {
+    width: 100%;
+    top: 940px;
+  }
+}

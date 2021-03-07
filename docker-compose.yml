@@ -1,0 +1,49 @@
+version: "3.4"
+
+x-common: &common
+  networks:
+    - web
+
+services:
+  db:
+    <<: *common
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: Camagru
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    container_name: Database
+
+  phpmyadmin:
+    <<: *common
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+    container_name: PHPmyadmin
+
+  apache:
+    <<: *common
+    build: ./config
+    restart: always
+    volumes:
+      - ./Camagruu:/var/www/html
+    ports:
+      - "80:80"
+      - "443:443"
+    container_name: Apache
+
+  maildev:
+    <<: *common
+    image: djfarrelly/maildev
+
+networks:
+  web:

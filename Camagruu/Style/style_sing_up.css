@@ -1,0 +1,111 @@
+body {
+  background-image: url("../img/bg01.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.left {
+  height: 500px;
+  background-image: url("../img/bg1.png");
+}
+.right {
+  height: 500px;
+  background-image: url("../img/bg.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+label {
+  color: white;
+}
+.titre_grand {
+  margin-top: 10px;
+  color: white;
+  line-height: 40px;
+  font-size: 40px;
+}
+
+.mr_t {
+  margin-top: 120px;
+}
+
+.img_website {
+  margin-top: 0px;
+  width: 350px;
+  height: 350px;
+  margin-right: 25px;
+}
+
+.container_img_website {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titre3 {
+  margin-top: 8px;
+  color: #00adb5;
+  font-size: 10px;
+}
+
+#image_password {
+  height: 38px;
+  width: 40px;
+  padding: 5px;
+}
+
+.container {
+  margin-top: 250px;
+  position: relative;
+}
+
+.error {
+  width: 40%;
+  position: absolute;
+  top: 420px;
+  left: 10px;
+}
+
+#error_pass,
+#error_size,
+#error_user,
+#error_pass_format,
+#error_name,
+#error_email,
+#error_form {
+  display: none;
+}
+
+#id_show_pass {
+  cursor: pointer;
+}
+
+#submit {
+  margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+  .right {
+    background: none;
+    box-shadow: none;
+  }
+
+  .mr_t {
+    margin-top: 100px;
+  }
+
+  .error {
+    width: 97%;
+    position: absolute;
+    top: 650px;
+    left: 10px;
+  }
+
+  .container {
+    margin-top: 80px;
+  }
+  .error {
+    width: 90%;
+    top: 670px;
+  }
+}

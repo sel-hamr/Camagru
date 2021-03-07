@@ -1,0 +1,7 @@
+<html>
+<body>
+    <p>Hey {USER_NAME} </p>
+    <p>thanks for signing up for camagru</p>
+    <p>please <a href="http://{IP}/action/activer_account.php?token={TOKEN}"> Click here</a> to Activate your email address</p>
+</body>
+</html>

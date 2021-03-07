@@ -1,0 +1,11 @@
+<div class="comment">
+  <div class="header">
+    <div class="avatar"><img src="{avatar}" class="profil_comment_user"></div>
+      <div class="info_user">
+        <span class="displayName">{displayName}</span>
+        <span class="displaytime text-muted">{displaytime}</span>
+      </div>
+    </div>
+  <span class="content_comment"> {content_comment}</span>
+</div>
+       

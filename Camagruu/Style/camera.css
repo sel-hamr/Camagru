@@ -1,0 +1,160 @@
+body {
+  background-image: url("../img/bg01.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.left {
+  height: 560px;
+  background-color: #00adb5;
+  background-image: url("../img/bg1.png");
+  margin-top: 50px;
+  background-size: 100% 100%;
+}
+
+.right {
+  height: 560px;
+  background-color: #393e46;
+  position: relative;
+  background-image: url("../img/bg.png");
+  margin-top: 50px;
+  background-size: 100% 100%;
+}
+
+#stream {
+  width: 100%;
+  height: 100%;
+}
+
+#emj1 {
+  width: 100%;
+  height: 100%;
+}
+
+#snapshot {
+  display: none;
+}
+
+.captureImage {
+  height: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.borderDashed {
+  border: 2px dashed #91b0b3;
+  color: #92b0b3;
+}
+
+#camera_tab_slide,
+#upload_tab_slide {
+  height: 2px;
+  width: 80%;
+  background-color: #00adb5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#upload_tab_slide {
+  background-color: white;
+}
+
+#DivUploadImageCapture {
+  display: none;
+}
+
+#inputUploadImage {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.fullScreenDiv {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+.divEmoji {
+  background-color: #fefefe;
+  border-radius: 8px;
+  margin-top: 200px;
+  display: flex;
+  flex-flow: column;
+}
+
+.emoji {
+  width: 100%;
+  height: 100%;
+}
+
+#emoji-1,
+#emoji-9,
+#emoji-5 {
+  background-color: #ffb367;
+  border-radius: 10px;
+}
+
+#emoji-3,
+#emoji-10,
+#emoji-6 {
+  background-color: #e43f5a;
+  border-radius: 10px;
+}
+
+#emoji-2,
+#emoji-11,
+#emoji-7 {
+  background-color: #007892;
+  border-radius: 10px;
+}
+
+#emoji-4,
+#emoji-12,
+#emoji-8 {
+  background-color: #ad62aa;
+  border-radius: 10px;
+}
+
+@media (max-width: 990px) {
+  .left {
+    margin-top: 110px;
+    background: none;
+    height: auto;
+    margin-bottom: 25px;
+  }
+
+  .right {
+    background: none;
+    margin-top: 40px;
+  }
+}
+
+.containerPostImage {
+  margin-top: 140px;
+  background-color: white;
+  height: 500px;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 15px;
+}
+.delete-post {
+  width: 33px;
+  height: 38px;
+  background-image: url("../img/a1.png");
+  background-size: 100% 100%;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}

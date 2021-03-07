@@ -1,0 +1,4 @@
+  <div class="div_comment">
+    <textarea class="form-control font-comment" rows="3" placeholder="Type comment ..." id="{ID_TEXTAREA_COMMENT}" style="resize: none;"></textarea>
+    <button type="button" class="btn btn-info add_comment" onclick="CreateComment('{ID_TEXTAREA_COMMENT}','{TOKENPOST}','{ID_COMMENT}','{IDCOUNTCOMMENT}')">Add</button>
+  </div>

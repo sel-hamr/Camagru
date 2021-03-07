@@ -1,0 +1,154 @@
+.post {
+  border-radius: 8px;
+  background-color: white;
+  padding-bottom: 8px;
+  max-width: 700px;
+  margin-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.post-header {
+  height: 70px;
+  display: flex;
+}
+
+.post_body {
+  height: 355px;
+}
+
+.delete {
+  width: 42px;
+  height: 37px;
+  margin-top: 10px;
+}
+
+.count-like {
+  margin-right: auto;
+}
+
+.count-comment {
+  margin-right: 12px;
+}
+
+.font-comment {
+  margin-right: 5%;
+}
+
+.post-header-titre {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.img-profil {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+#post_img {
+  width: 100%;
+  height: 300px;
+}
+
+.div_like {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  width: 55px;
+  height: 55px;
+  padding-left: 9px;
+}
+
+hr {
+  margin: 0px;
+}
+
+.div_comment {
+  margin-top: 15px;
+  width: 96%;
+  margin-left: 10px;
+  display: flex;
+}
+
+.text_comment {
+  margin-right: 5%;
+  width: 70%;
+}
+
+.add_comment {
+  width: 25%;
+  height: 34px;
+}
+
+.view_comment {
+  cursor: pointer;
+  margin-top: 14px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.post_comment {
+  display: none;
+}
+
+.delete-post {
+  width: 33px;
+  height: 38px;
+  margin-top: 10px;
+  background-image: url("/img/a1.png");
+  background-size: 100% 100%;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.comment {
+  margin-top: 10px;
+  box-shadow: 0 0 3px rgba(106, 115, 125, 0.35);
+  border-radius: 7px;
+  width: 84%;
+  min-height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  top: -5px;
+  left: -40px;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.info_user {
+  margin-left: 30px;
+}
+
+.displayName {
+  font-size: 17px;
+  margin-right: 15px;
+}
+
+.content_comment {
+  overflow-wrap: break-word;
+  margin-top: 6px;
+  margin-left: 20px;
+}
+
+body {
+  background-color: #f7f7f7;
+}

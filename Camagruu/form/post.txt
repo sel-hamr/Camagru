@@ -1,0 +1,26 @@
+<div class="container mr-auto ml-auto post">
+    <div class="post-header">
+      <img src="{PHOTO_USER}" class="img-profil" />
+      <div class="post-header-titre mr-auto">
+        <p class="mb-0">{USER_NAME}</p>
+        <h6 class="text-muted">{DATE}</h6>
+      </div>
+       {REMOVE}
+    </div>
+    <div class="post_body">
+      <img id="post_img" src="{IMGPOST}" />
+      <div class="div_like">
+          <img src="{IMGLIKE}" id="{IDIMAGELIKE}" alt="" class="icons" onclick="like('{TOKENPOST}','{IDIMAGELIKE}','{IDCOUNTLIKE}')">
+          <span id="{IDCOUNTLIKE}" class="count-like">{COUNT_LIKE}</span>
+          <span id="{IDCOUNTCOMMENT}" class="count-comment">{COUNT_COMMENT}</span>
+      </div>
+    </div>
+    <hr>
+    <div class="post_footer">
+      {CREATE_POST_COMMENT}
+      <div class="post_comment" id="{ID_COMMENT}">
+        {COMMENTS}
+      </div>
+      <p class="text-muted view_comment" onclick="view_comment('{ID_COMMENT}')">View Comment</p>
+    </div>
+</div>

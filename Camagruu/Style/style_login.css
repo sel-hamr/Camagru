@@ -1,0 +1,149 @@
+body {
+  background-image: url("../img/bg01.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.left {
+  width: 100px;
+  height: 580px;
+  background-color: #00adb5;
+  background-image: url("../img/bg1.png");
+  background-size: 100% 100%;
+  margin-top: 50px;
+}
+
+.right {
+  height: 580px;
+  background-color: #393e46;
+  position: relative;
+  background-image: url("../img/bg.png");
+  margin-top: 50px;
+  background-size: 100% 100%;
+}
+
+.titre {
+  margin-top: 2vw;
+  color: white;
+  font-size: 40px;
+  margin-left: 2vw;
+}
+
+.titre_page {
+  color: #ededed;
+  margin-top: 20px;
+  text-align: center;
+  display: none;
+  font-size: 30px;
+}
+
+.img-Login {
+  margin-top: 20px;
+  width: 350px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+#userName,
+#pass {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+#img-Welcome {
+  margin: 15px;
+  width: 500px;
+  height: 230px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#forgot {
+  color: white;
+  margin-top: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  margin-top: 200px;
+}
+
+.error {
+  width: 40%;
+  position: absolute;
+  top: 510px;
+  left: 10px;
+}
+
+#checkbox {
+  width: 20px;
+  height: 30px;
+}
+
+#WarningIsNotActive,
+#error_user_pass,
+#success_reset_password,
+#successSendEmail,
+#failSendEmail,
+#success {
+  display: none;
+}
+
+#img_pass,
+#img_email,
+#img_user {
+  height: 38px;
+  width: 40px;
+  padding: 5px;
+}
+
+body > div:nth-of-type(2) {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1021;
+}
+
+.container-post {
+  background-color: #fefefe;
+  padding: 30px 16px 30px 16px;
+  border-radius: 8px;
+}
+
+.closeFormSendMail {
+  position: absolute;
+  top: 52px;
+  cursor: pointer;
+  right: 15px;
+  width: 45px;
+  height: 45px;
+}
+
+.div_email {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 991px) {
+  .right {
+    background: none;
+  }
+  .error {
+    width: 97%;
+    position: absolute;
+    top: 600px;
+    left: 10px;
+  }
+}

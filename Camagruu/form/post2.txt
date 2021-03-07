@@ -1,0 +1,4 @@
+  <div class="col-lg-3 col-md-4 col-ms-6 col-xs-6 col-6  mt-2 mb-3">
+    <img src="{IMG}" style="width: 100%;"/>
+      <a class='delete-post' href='../action/remove_post2.php?&token={token_galley}&token_index={token_index}'></a>
+  </div>

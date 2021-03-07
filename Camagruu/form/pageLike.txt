@@ -1,0 +1,6 @@
+<html>
+<body>
+    <p>Hey {USER_NAME} </p>
+    <p>{USER_like} make like to post of you</p>
+
+</body>
