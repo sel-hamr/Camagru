@@ -2,24 +2,17 @@
 
 Welcome to Camagru, a small Instagram-like website allowing users to create and share photo-montages. Create a profile, take new photo-montages, share it on the public gallery.
 
-### Build with
-* [PHP](http://www.php.net/) - Backend
-* [Javascript](https://www.javascript.com/) - Frontend
-* [MySQL](https://www.mysql.com/fr/) - Database
-* HTML/CSS - Frontend
-* Ajax - XMLHttpRequest
-
 ## Intro
 
 Objective of this project is to create a complete website like instagram,sharing pictures with other users
 
 ### Stack
 
--   PHP
--   HTML/CSS/JS
+-   [PHP](http://www.php.net/) - Backend
+-   HTML/CSS/JS - Frontend
 -   BOOTSTRAP
--   MySQL
--   Ajax
+-   [MySQL](https://www.mysql.com/fr/) - Database
+-   Ajax - XMLHttpRequest
 -   DOCKER
 
 ### Features
